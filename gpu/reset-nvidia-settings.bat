@@ -1,5 +1,5 @@
 :: RESET NVIDIA SETTINGS AND RESTART THE DISPLAY ADAPTER
-:: https://github.com/WinTweaks/gpu-tweaks
+:: https://github.com/WinTweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION

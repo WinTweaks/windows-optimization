@@ -1,5 +1,5 @@
 :: REBOOT IN NORMAL MODE
-:: https://github.com/WinTweaks/tools-for-tweaking
+:: https://github.com/WinTweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION

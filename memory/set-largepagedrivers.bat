@@ -1,5 +1,5 @@
 :: ADD GAMING-RELATED DRIVERS TO LARGEPAGEDRIVERS LIST IN MEMORY MANAGEMENT
-:: https://github.com/WinTweaks/network-tweaks
+:: https://github.com/WinTweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION
