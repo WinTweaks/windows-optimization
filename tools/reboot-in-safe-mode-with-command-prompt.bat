@@ -1,5 +1,5 @@
 :: REBOOT IN SAFE MODE WITH COMMAND PROMPT
-:: https://github.com/WinTweaks/tools-for-tweaking
+:: https://github.com/WinTweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION
