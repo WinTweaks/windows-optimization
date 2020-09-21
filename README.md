@@ -1,6 +1,6 @@
 # Windows Optimization for Gaming
 
-My growing collection of essential scripts and tools to optimize Windows 10 for high-performance and low-latency gaming. Some scripts are my own, and some are the work of others. Each one has a specific, clearly defined purpose, and unless noted, will work independently of the others.
+Essential scripts and tools to optimize Windows 10 for high-performance and low-latency gaming. Some scripts are my own, and some are the work of others. Each one has a specific, clearly defined purpose, and unless noted, will work independently of the others.
 
 All scripts must be **Run as Administrator**.
 
