@@ -1,6 +1,7 @@
 :: REBOOT SYSTEM
+:: https://github.com/wintweaks/windows-optimization
+
 :: Usage: reboot [ /c | /m | /n | /s ]
-:: https://github.com/WinTweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION

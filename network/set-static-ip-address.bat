@@ -1,5 +1,5 @@
 :: SET STATIC IP ADDRESS BASED ON CURRENTLY ASSIGNED DYNAMIC IP
-:: https://github.com/WinTweaks/windows-optimization
+:: https://github.com/wintweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION

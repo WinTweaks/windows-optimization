@@ -1,5 +1,5 @@
 :: RESTART NETWORK ADAPTER
-:: https://github.com/WinTweaks/windows-optimization
+:: https://github.com/wintweaks/windows-optimization
 
 @echo off
 setlocal ENABLEDELAYEDEXPANSION
