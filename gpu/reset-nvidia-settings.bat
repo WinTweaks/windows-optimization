@@ -5,12 +5,7 @@
 setlocal ENABLEDELAYEDEXPANSION
 
 :: CHECK FOR ADMIN PRIVILEGES
-whoami /groups | find "12288" >nul 2>&1
-if %errorlevel% neq 0 (
-	echo This batch file must be Run as Administrator.
-	pause
-	exit /b 1
-)
+dism >nul 2>&1 || (echo This script must be Run as Administrator. && pause && exit /b 1)
 
 :: DELETE PROFILES
 del "%programdata%\NVIDIA Corporation\Drs\nvdrsdb0.bin" >nul 2>&1

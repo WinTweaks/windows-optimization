@@ -5,12 +5,7 @@
 setlocal ENABLEDELAYEDEXPANSION
 
 :: CHECK FOR ADMIN PRIVILEGES
-whoami /groups | find "12288" >nul 2>&1
-if %errorlevel% neq 0 (
-	echo This batch file must be Run as Administrator.
-	pause
-	exit /b 1
-)
+dism >nul 2>&1 || (echo This script must be Run as Administrator. && pause && exit /b 1)
 
 :: LIST OF ALL DRIVERS THAT SHOULD BE ADDED TO LARGEPAGEDRIVERS
 set WHITELIST=ACPI AcpiDev acpipagr AcpiPmi AFD AMDPCIDev amdgpio2 amdgpio3 AmdPPM amdpsp amdsata amdsbs amdxata asmtxhci BasicDisplay BasicRender Disk DXGKrnl e1iexpress e1rexpress hwpolicy IntcAzAudAdd kbdclass kbdhid MMCSS monitor mouclass mouhid mountmgr NDIS nvdimm nvlddmkm pci PktMon RTCore64 RzCommon RzDev_0244 Tcpip usbehci USBXHCI
