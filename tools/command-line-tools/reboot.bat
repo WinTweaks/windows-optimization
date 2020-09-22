@@ -28,22 +28,30 @@ if "%1"=="/n" goto :SafeMode
 if "%1"=="/s" goto :SafeMode
 
 :: Reboot in Normal Mode
-echo Default
+bcdedit /deletevalue safebootalternateshell >nul 2>&1
+bcdedit /deletevalue safeboot >nul 2>&1
+shutdown /r /f /t 5
 exit /b 0
 
 :: Reboot in Safe Mode with Command Prompt
 :Console
-echo Console
+bcdedit /set safeboot minimal >nul 2>&1
+bcdedit /set safebootalternateshell yes >nul 2>&1
+shutdown /r /f /t 5
 goto :eof
 
 :: Reboot in Safe Mode
 :Minimal
-echo Minimal
+bcdedit /deletevalue safebootalternateshell >nul 2>&1
+bcdedit /set safeboot minimal >nul 2>&1
+shutdown /r /f /t 5
 goto :eof
 
 :: Reboot in Safe Mode with Networking
 :SafeMode
-echo SafeMode
+bcdedit /deletevalue safebootalternateshell >nul 2>&1
+bcdedit /set safeboot network >nul 2>&1
+shutdown /r /f /t 5
 goto :eof
 
 :: Help
