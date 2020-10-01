@@ -1,4 +1,4 @@
-:: RESTART NETWORK ADAPTER
+:: RESET NETWORK ADAPTER SETTINGS
 :: https://github.com/wintweaks/windows-optimization
 
 @echo off
