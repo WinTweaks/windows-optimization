@@ -17,7 +17,7 @@ dism >nul 2>&1 || (echo This script must be Run as Administrator. && pause && ex
 set DNS2=8.8.8.8
 
 :: CALCULATE ANY SETTINGS NOT PROVIDED ABOVE
-if "%INTERFACE%"=="" for /f "tokens=3,*" %%i in ('netsh int show interface^|find "Connected"') do set INTERFACE=%%j
+if "%INTERFACE%"=="" for /f "tokens=3,*" %%i in ('netsh int show interface ^|find "Connected"') do set INTERFACE=%%j
 if "%IP%"=="" for /f "tokens=3 delims=: " %%i in ('netsh int ip show config name^="%INTERFACE%" ^| findstr "IP Address" ^| findstr [0-9]') do set IP=%%i
 if "%MASK%"=="" for /f "tokens=2 delims=()" %%i in ('netsh int ip show config name^="%INTERFACE%" ^| findstr /r "(.*)"') do for %%j in (%%i) do set MASK=%%j
 if "%GATEWAY%"=="" for /f "tokens=3 delims=: " %%i in ('netsh int ip show config name^="%INTERFACE%" ^| findstr "Default" ^| findstr [0-9]') do set GATEWAY=%%i
