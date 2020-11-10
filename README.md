@@ -6,7 +6,7 @@ All scripts must be **Run as Administrator**.
 
 ## Disclaimer
 
-These scripts have been tested on Windows 10 v2004. They make or may not work on other versions of Windows. 
+These scripts have been tested on Windows 10 v2004. They may or may not work on other versions of Windows. 
 
 - This GitHub is not tech support.
 - Use Google before asking questions.
