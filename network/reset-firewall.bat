@@ -13,5 +13,6 @@ netsh advfirewall set allprofiles firewallpolicy blockinbound,blockoutbound >nul
 netsh advfirewall reset >nul 2>&1
 netsh advfirewall set allprofiles state on >nul 2>&1
 
+pause
 exit /b 0
 
