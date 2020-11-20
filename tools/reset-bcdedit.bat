@@ -28,6 +28,7 @@ bcdedit /deletevalue graphicsmodedisabled >nul 2>&1
 bcdedit /deletevalue halbreakpoint >nul 2>&1
 bcdedit /deletevalue highestmode  >nul 2>&1
 bcdedit /deletevalue hypervisorlaunchtype >nul 2>&1
+bcdedit /deletevalue increaseuserva >nul 2>&1
 bcdedit /deletevalue integrityservices >nul 2>&1
 bcdedit /deletevalue isolatedcontext >nul 2>&1
 bcdedit /deletevalue nointegritychecks >nul 2>&1
