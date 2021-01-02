@@ -25,11 +25,11 @@ My thanks goes out to:
 - [Calypto](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/view)
 - [CatGamer](https://discord.io/FoxOS)
 - [Danske](https://docs.google.com/document/d/18uPEXJC5LSto8x9X_GteSI58sfQLCfamDG1HNHJWrQU/view)
-- [Fanta]()
+- [Fanta](https://discord.gg/PQZDM2KefF)
 - [Felipe](https://github.com/Felipe8581/)
 - [Melody](https://sites.google.com/view/melodystweaks/)
 - [Riot](https://docs.google.com/document/d/1Bf155InFBbtztb3DykVD9njBZrduU4gc-M03LC0-TsE/edit)
 - [SuperStrikE](https://github.com/SuperStrikEtweaks/Tweaking)
 - [The Revision Team](https://www.revi.cc)
 
-Almost everything I've learned about tweaking is because of their dedication and support.
+Your research, dedication, and support made my work possible.
